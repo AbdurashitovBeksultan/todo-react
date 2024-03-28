@@ -1,0 +1,55 @@
+body {
+	text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.5rem;
+	background: azure;
+}
+
+input[type='text'],
+button {
+	font: inherit;
+}
+
+main {
+	margin: auto;
+	max-width: 600px;
+}
+
+h1 {
+	margin-bottom: 0.5rem;
+}
+
+button {
+	min-width: 50px;
+	min-height: 50px;
+	border: 1px solid #333;
+	border-radius: 10%;
+	cursor: pointer;
+}
+
+input {
+	width: 30%;
+	padding: 0.5rem;
+	border-radius: 10px;
+	border: 0.5px solid #333;
+}
+
+.add {
+	background-color: gray;
+	color: #fff;
+}
+
+.add:focus,
+.add:hover {
+	background-color: limegreen;
+}
+
+.h1 {
+	text-align: center;
+	color: greenyellow;
+}
